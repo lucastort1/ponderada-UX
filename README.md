@@ -1,5 +1,9 @@
 # ponderada-UX
 
+# Autores
+
+Lucas Cozzolino Tort & Vinicius Maciel Flor
+
 # App de Receitas - Tela de Bolo de Cenoura
 
 Este projeto implementa uma interface de aplicativo móvel para exibir uma receita de bolo de cenoura. O design é responsivo e otimizado para dispositivos móveis.
