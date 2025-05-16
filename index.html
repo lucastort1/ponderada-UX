@@ -1,0 +1,60 @@
+<!-- Declaração do tipo de documento - informa ao navegador que este é um documento HTML5 -->
+<!DOCTYPE html>
+<!-- Abertura da tag HTML com definição do idioma da página como Português do Brasil -->
+<html lang="pt-BR">
+<head>
+    <!-- Define a codificação de caracteres como UTF-8, suportando acentos e caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Controla o viewport (área visível) em dispositivos móveis, tornando a página responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Define o título da página que aparece na aba do navegador -->
+    <title>Receita Bolo de Cenoura</title>
+    <!-- Vincula o arquivo CSS externo chamado styles.css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Container principal do cartão de receita -->
+    <div class="recipe-card">
+        <!-- Título principal da receita (h1 é o título mais importante da página) -->
+        <h1 class="title">Receita Bolo de Cenoura</h1>
+        
+        <!-- Container para a imagem, mantém a proporção e tamanho controlado -->
+        <div class="image-container">
+            <!-- Imagem do bolo de cenoura, carregada da pasta img. O atributo alt fornece texto alternativo para acessibilidade -->
+            <img src="img/bolo cenoura.jpg" alt="Bolo de Cenoura com Cobertura de Chocolate">
+        </div>
+        
+        <!-- Subtítulo da receita (h2 é o segundo nível de título) -->
+        <h2 class="recipe-name">Bolo de Cenoura com Chocolate</h2>
+        
+        <!-- Seção de informações rápidas sobre a receita -->
+        <div class="recipe-info">
+            <!-- Caixa cinza (pill) contendo tempo de preparo e número de porções com ícones -->
+            <span class="info-pill">⏱ 45 min   🍴 8 porções</span>
+        </div>
+        
+        <!-- Seção de ingredientes -->
+        <div class="ingredients">
+            <!-- Título da seção de ingredientes (h3 é o terceiro nível de título) -->
+            <h3>Ingredientes:</h3>
+            <!-- Lista não ordenada (com marcadores) de ingredientes -->
+            <ul>
+                <!-- Cada item da lista representando um ingrediente -->
+                <li>3 cenouras médias (aprox. 250g), descascadas e picadas</li>
+                <li>3 ovos</li>
+                <li>1 xícara (chá) de óleo</li>
+                <li>2 xícaras (chá) de açúcar</li>
+                <li>2 ½ xícaras (chá) de farinha de trigo</li>
+                <li>1 colher (sopa) de fermento em pó</li>
+                <li>4 colheres (sopa) de açúcar</li>
+                <li>2 colheres (sopa) de chocolate em pó ou achocolatado</li>
+                <li>2 colheres (sopa) de manteiga</li>
+                <li>2 colheres (sopa) de leite</li>
+            </ul>
+        </div>
+        
+        <!-- Botão de ação verde com link (# é um placeholder para uma URL) -->
+        <a href="#" class="action-button">Ver Receita Completa</a>
+    </div>
+</body>
+</html>
